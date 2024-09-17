@@ -26,7 +26,7 @@ try {
 } catch (error) {
   console.error("Error loading environment variables:", error);
 }
-const frontendOrigin = ["http://localhost:5173",'https://capricon-task.onrender.com/'];
+const frontendOrigin = ["http://localhost:5173",'https://capricon-task.vercel.app/'];
 
 
 export const io = new Server(server, {
