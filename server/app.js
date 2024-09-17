@@ -32,7 +32,7 @@ try {
 }
 const frontendOrigin = [
   "http://localhost:5173",
-  "https://capricon-task.vercel.app/",
+  "https://capricon-task.vercel.app",
 ];
 
 export const io = new Server(server, {
