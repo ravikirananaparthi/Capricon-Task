@@ -1,7 +1,7 @@
 import React from 'react';
 import { IoSearch } from "react-icons/io5";
 
-const SearchBar = () => {
+const Search = () => {
   return (
     <div className="flex flex-row">
       <div className="bg-white rounded-full flex ml-2 mt-3 items-center md:w-[180px] lg:w-[330px] w-max-full">
@@ -16,4 +16,4 @@ const SearchBar = () => {
   );
 };
 
-export default SearchBar;
+export default Search;
