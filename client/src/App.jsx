@@ -13,7 +13,8 @@ import CreatePosts from "./pages/CreatePosts.jsx";
 import AdminDashboard from "./pages/AdminDashboard.jsx";
 import UserDashboard from "./pages/UserDashboard.jsx";
 import Feed from "./pages/Feed.jsx";
-import Navbar from "./components/Navbar.jsx";
+import Navbar from "./NavBar.jsx";
+
 
 const ser =import.meta.env.SER;
 
