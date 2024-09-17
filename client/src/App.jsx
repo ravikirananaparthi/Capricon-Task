@@ -13,7 +13,10 @@ import CreatePosts from "./pages/CreatePosts.jsx";
 import AdminDashboard from "./pages/AdminDashboard.jsx";
 import UserDashboard from "./pages/UserDashboard.jsx";
 import Feed from "./pages/Feed.jsx";
-import Navbar from "./NavBar.jsx";
+import Nav from "./components/Nav.jsx";
+
+
+
 
 
 const ser =import.meta.env.SER;
@@ -65,7 +68,7 @@ function App(props) {
 function ProtectedRoutes() {
   return (
     <>
-      <Navbar />
+      <Nav />
       <Routes>
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />

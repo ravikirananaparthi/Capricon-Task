@@ -7,7 +7,7 @@ import { Context, server } from "../main";
 import toast from "react-hot-toast";
 import axios from "axios";
 
-const Navbar = () => {
+const Nav = () => {
   const { user, isAuthenticated, setAuth, loader, setLoader } =
     useContext(Context);
   const [isOpen, setIsOpen] = useState(false);
@@ -177,4 +177,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Nav;
