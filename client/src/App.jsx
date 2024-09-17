@@ -8,7 +8,7 @@ import { Context, server } from "./main";
 import { io } from "socket.io-client";
 import Googleregister from "./pages/Googleregister";
 import Landing from "./pages/Landing";
-import Navbar from "./components/NavBar.jsx";
+import Navbar from "./components/Navbar.jsx";
 import CreatePosts from "./pages/CreatePosts.jsx";
 import AdminDashboard from "./pages/AdminDashboard.jsx";
 import UserDashboard from "./pages/UserDashboard.jsx";
